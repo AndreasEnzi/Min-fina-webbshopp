@@ -56,6 +56,7 @@ body{
         font-family: Montserrat;
         font-size: 550%;
         padding: 2vh;
+        font-style: oblique;
     }
     section>article h2{
         font-size: 120%;
@@ -75,6 +76,6 @@ body{
     button.price:hover{
 
         
-        background-color: cornflowerblue;
+        background-color:royalblue;
         font-size: 145%;
     }

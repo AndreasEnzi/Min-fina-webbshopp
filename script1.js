@@ -1,13 +1,15 @@
 var amount =0;
 var counter=0;
 var coachingCounter=0;
+var sum=0;
+var time=0;
 function addToCart1(){ 
     amount ++;
     counter++;
-
+    sum = sum+300;
 
     document.getElementById("counter").innerHTML=" Du har lagt till " + counter + " av den bästa boosten ever! glhf!";
-    alert('added to cart boosting'+ " "+amount);
+    
   
    
 
@@ -38,9 +40,10 @@ function addToCart1(){
 function addToCart2(){
     amount++;
     coachingCounter++;
+    time++;
 
     document.getElementById("coachingCounter").innerHTML= " Du har lagt till " + coachingCounter + " av den bästa coachningen ever! glhf!";
-    alert('added to cart coaching'+ " "+amount);
+    
   
    
 
