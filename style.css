@@ -1,0 +1,67 @@
+body{
+    background-color: bisque ; 
+    background-image: url(images/hots3.jpg);
+    background-size: cover;
+    padding:2vh 2vw;
+    min-height: 100vh;
+    }
+    .header-top{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-top>div{
+        width:20%;
+    }
+    .header-top>div>img{
+        width:100%;
+        border-radius: 15px;
+       
+    }
+    img>id >korg{
+
+            background-color: black;
+    }
+    header{
+        margin-bottom: 5vh;
+        background-color:rgba(255,255,255,0.5);
+        padding:2vh;
+        border-radius:15px 15px 0 0;
+    }
+    header>img{
+    width: 50px;
+    }
+    main{
+        background-color:rgba(255,255,255,0.5);
+        padding:2vh;
+        border-radius:15px 15px 0 0;
+    }
+    section>article>a{
+        width: 25%;
+    }
+    article>a>img{
+        width: 100%;
+    }
+    section>article{
+        display: flex;
+       /*viewport height,% av fönstrets höjd*/
+       justify-content: space-between;
+    margin-bottom: 2vh;
+    }
+    article h2{
+        font-size: 200;
+    }
+    section>article h2{
+        font-size: 120%;
+    }
+    article>div{
+    /*view port width % av fönstrets bredd*/
+    margin-left: 2vw;
+    flex-grow:1;
+    }
+    article .price{
+        text-align: right;
+    }
+    button.price{
+    font-size:130%;
+    }
