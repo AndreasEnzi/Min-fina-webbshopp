@@ -42,7 +42,7 @@ function addToCart2(){
     coachingCounter++;
     time++;
 
-    document.getElementById("coachingCounter").innerHTML= " Du har lagt till " + coachingCounter + " av den bästa coachningen ever! glhf!";
+    document.getElementById("coachingCounter").innerHTML= " Du har lagt till " + coachingCounter + " av den bästa coachningen ever!";
     
   
    

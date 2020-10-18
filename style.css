@@ -1,8 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600);
-
-
+a{     text-decoration: none;     color: black;     }         
+a:visited{     text-decoration: none;     color: black;     }
 body{
-    background-color: bisque ; 
+    background-color:bisque ; 
     background-image: url(images/hots3.jpg);
     background-size: cover;
     padding:2vh 2vw;
@@ -39,6 +38,7 @@ body{
     section>article>a{
         width: 25%;
     }
+ 
     article>a>img{
         width: 100%;
     }
@@ -51,13 +51,7 @@ body{
     article h2{
         font-size: 200;
     }
-    header h1{
-
-        font-family: Montserrat;
-        font-size: 550%;
-        padding: 2vh;
-        font-style: oblique;
-    }
+    
     section>article h2{
         font-size: 120%;
     }
@@ -73,9 +67,17 @@ body{
     font-size:130%;
 
     }
+    button.comment{
+        display: none;
+    }
+    button.price:hover.comment{
+
+        display: inline;
+    }
     button.price:hover{
 
         
         background-color:royalblue;
         font-size: 145%;
+        
     }
